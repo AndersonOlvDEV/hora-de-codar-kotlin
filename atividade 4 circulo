@@ -1,0 +1,15 @@
+import java.util.Scanner
+
+fun main() {
+    val reader = Scanner(System.`in`)
+
+    // Círculo
+    println("--- Área do Círculo ---")
+    print("Digite o valor do raio: ")
+    val raioCirculo = reader.nextDouble()
+    val areaCirculo = Math.PI * (raioCirculo * raioCirculo)
+    println("A área do círculo é: $areaCirculo\n")
+
+    reader.close()
+
+}
