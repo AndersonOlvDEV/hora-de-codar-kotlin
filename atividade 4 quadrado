@@ -1,0 +1,13 @@
+import java.util.Scanner
+
+fun main() {
+    val reader = Scanner(System.`in`)
+
+    // Quadrado
+    println("--- Área do Quadrado ---")
+    print("Digite o valor do lado: ")
+    val ladoQuadrado = reader.nextDouble()
+    val areaQuadrado = ladoQuadrado * ladoQuadrado
+    println("A área do quadrado é: $areaQuadrado\n")
+
+}
