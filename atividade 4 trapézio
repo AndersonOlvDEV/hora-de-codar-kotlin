@@ -1,0 +1,17 @@
+import java.util.Scanner
+
+fun main() {
+    val reader = Scanner(System.`in`)
+
+    // Trapézio
+    println("--- Área do Trapézio ---")
+    print("Digite o valor da base maior: ")
+    val baseMaiorTrapezio = reader.nextDouble()
+    print("Digite o valor da base menor: ")
+    val baseMenorTrapezio = reader.nextDouble()
+    print("Digite o valor da altura: ")
+    val alturaTrapezio = reader.nextDouble()
+    val areaTrapezio = ((baseMaiorTrapezio + baseMenorTrapezio) * alturaTrapezio) / 2
+    println("A área do trapézio é: $areaTrapezio\n")
+
+}
