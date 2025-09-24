@@ -1,0 +1,15 @@
+import java.util.Scanner
+
+fun main() {
+    val reader = Scanner(System.`in`)
+
+    //retangulo
+    println("--- Área do Retângulo ---")
+    print("Digite o valor da base: ")
+    val baseRetangulo = reader.nextDouble()
+    print("Digite o valor da altura: ")
+    val alturaRetangulo = reader.nextDouble()
+    val areaRetangulo = baseRetangulo * alturaRetangulo
+    println("A área do retângulo é: $areaRetangulo\n")
+
+}
