@@ -1,0 +1,15 @@
+import java.util.Scanner
+
+fun main() {
+    val reader = Scanner(System.`in`)
+
+// Losango
+    println("--- Área do Losango ---")
+    print("Digite o valor da diagonal maior: ")
+    val diagonalMaiorLosango = reader.nextDouble()
+    print("Digite o valor da diagonal menor: ")
+    val diagonalMenorLosango = reader.nextDouble()
+    val areaLosango = (diagonalMaiorLosango * diagonalMenorLosango) / 2
+    println("A área do losango é: $areaLosango\n")
+
+}
