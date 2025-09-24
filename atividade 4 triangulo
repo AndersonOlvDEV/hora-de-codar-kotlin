@@ -1,0 +1,15 @@
+import java.util.Scanner
+
+fun main() {
+    val reader = Scanner(System.`in`)
+
+    // Triângulo
+    println("--- Área do Triângulo ---")
+    print("Digite o valor da base: ")
+    val baseTriangulo = reader.nextDouble()
+    print("Digite o valor da altura: ")
+    val alturaTriangulo = reader.nextDouble()
+    val areaTriangulo = (baseTriangulo * alturaTriangulo) / 2
+    println("A área do triângulo é: $areaTriangulo\n")
+
+}
