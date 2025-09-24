@@ -1,0 +1,15 @@
+import java.util.Scanner
+
+fun main() {
+    val reader = Scanner(System.`in`)
+
+    // Paralelogramo
+    println("--- Área do Paralelogramo ---")
+    print("Digite o valor da base: ")
+    val baseParalelogramo = reader.nextDouble()
+    print("Digite o valor da altura: ")
+    val alturaParalelogramo = reader.nextDouble()
+    val areaParalelogramo = baseParalelogramo * alturaParalelogramo
+    println("A área do paralelogramo é: $areaParalelogramo\n")
+    
+}
